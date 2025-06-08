@@ -1,0 +1,35 @@
+# Genel Python Ignore'ları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*~$
+
+# Sanal Ortamlar
+.venv/
+env/
+venv/
+*.egg-info/
+.Python
+build/
+dist/
+develop-eggs/
+parts/
+sdist/
+var/
+eggs/
+
+# IDE Dosyaları (Eğer kullanıyorsan)
+.idea/          # PyCharm için
+.vscode/        # VS Code için
+*.sublime-project
+*.sublime-workspace
+
+# Ortam Değişkenleri (ÇOK ÖNEMLİ!)
+.env
+.flaskenv
+
+# Veritabanı ve Loglar (Eğer varsa)
+*.db
+*.sqlite
+*.log

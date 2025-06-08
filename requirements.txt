@@ -1,0 +1,4 @@
+Gerekli Kütüphaneler:
+customtkinter
+openai
+phyton-dotenv
